@@ -7,7 +7,7 @@
 2.- Escribe un programa de una sola línea que escriba en la pantalla un texto que diga «Hello World» (document.write).
 
 */
-    document.write('Hola a todos desde html')
+    // document.write('Hola a todos desde html')
 
 /*
 3.- Escribe un programa de una sola línea que escriba en la pantalla el resultado de sumar 3 + 5.
@@ -58,7 +58,7 @@
     //     alert(`El numero mayor es el ${numero3}`)
     // }
 
-8/*
+/*
 8.- Escribe un programa que pida un número y diga si es divisible por 2
 
 */
@@ -81,7 +81,15 @@ Nota: Tener en cuenta la función length y substring o charAt (developer mozilla
 
 // let numero = parseInt(prompt("Escribe un numero por favor"));
 // if (numero % 2 === 0 || numero % 3 === 0 || numero % 5 === 0 || numero % 7 === 0) {
-// alert("Es divisible por 2, 3, 5 o 7");
+//     if (numero % 2 === 0 ) {
+//         alert("Es divisible por 2,");
+//         } if (numero % 3 === 0 ){
+//         alert("Es divisible  por  3");
+//         }if (numero % 5 === 0 ){
+//             alert("Es divisible  por  5");
+//         } if (numero % 7 === 0 ){
+//             alert("Es divisible  por  7");
+//         }
 // } else {
 // alert("No es divisible  por 2, ni por 3, ni por 5, ni por 7");
 // }
@@ -89,3 +97,4 @@ Nota: Tener en cuenta la función length y substring o charAt (developer mozilla
 /*
 11.- Añadir al ejercicio anterior que nos diga por cuál de los cuatro es divisible (hay que decir todos por los que es divisible)
 */ 
+    //Esta agredo al 10
