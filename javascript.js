@@ -74,17 +74,17 @@
 Nota: Tener en cuenta la función length y substring o charAt (developer mozilla)
 
 */ 
-let frase= prompt("Introduce una frase y te mostrare las vocales que tiene:");
-let numchar = frase.length;    //Devuelve la longitud del string.
-let vocal;
-let array=[]
-for (i = 0; i < numchar; i++) {
-    vocal = frase.charAt(i);    //recupera el caracter i del string.
-    if ((vocal == "a") || (vocal == "e") || (vocal == "i") || (vocal == "o") || (vocal == "u")) {
-        array.push(vocal)
-    }
-}
-console.log(`Las vocales que tiene su frase son las siguientes: ${array}`)
+// let frase= prompt("Introduce una frase y te mostrare las vocales que tiene:");
+// let numchar = frase.length;    //Devuelve la longitud del string.
+// let vocal;
+// let array=[]
+// for (i = 0; i < numchar; i++) {
+//     vocal = frase.charAt(i);    //recupera el caracter i del string.
+//     if ((vocal == "a") || (vocal == "e") || (vocal == "i") || (vocal == "o") || (vocal == "u")) {
+//         array.push(vocal)
+//     }
+// }
+// console.log(`Las vocales que tiene su frase son las siguientes: ${array}`)
 
 /*
 10.- Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro)
